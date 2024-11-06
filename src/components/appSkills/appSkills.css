@@ -1,0 +1,38 @@
+.app-skills{
+    margin:0 auto;
+    padding:7%;
+    background: rgb(145, 145, 145);
+   color:#fff;
+   /* text-shadow: 3px 1px 5px #000; */
+}
+.app-skills h2{
+    font-size:50px;
+    text-align:center;
+    margin:0;
+    margin-bottom:7%;
+}
+.app-skills__container{
+    display:flex;
+    justify-content:space-between;
+    text-align:center;
+}
+.app-skills__item1, .app-skills__item2, .app-skills__item3{
+max-width:400px;
+text-align: -webkit-center;
+}
+
+.number{
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.number h3{
+font-size:50px;
+font-weight:500; 
+color:#000;
+}

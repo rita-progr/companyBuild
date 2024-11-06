@@ -1,0 +1,43 @@
+.app-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .app-footer h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .app-footer p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .app-footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .app-footer-container1, .app-footer-container2 {
+    width: 45%;
+    padding: 20px;
+    background-color: #444;
+    border: 1px solid #555;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .app-footer-container1 p, .app-footer-container2 p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .app-footer-container1 h4, .app-footer-container2 h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }

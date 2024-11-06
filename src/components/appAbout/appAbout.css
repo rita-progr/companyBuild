@@ -1,0 +1,11 @@
+.app-about{
+    padding:10%;
+    margin:0 auto;
+    text-align:center;
+    background-color: #333;
+color: #fff;
+}
+.app-about h2{
+    font-size: 50px;
+    margin:0;
+}
