@@ -1,7 +1,7 @@
 import "./appAbout.css";
 const AppAbout = () => {
   return (
-    <div className="app-about">
+    <div className="app-about" >
       <h2>О нас</h2>
       <p>
         Мы - это команда профессионалов в области строительства и ремонта с <br/>

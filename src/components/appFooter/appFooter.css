@@ -1,43 +1,58 @@
 .app-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .app-footer h3 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .app-footer p {
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-  
-  .app-footer-container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-  }
-  
-  .app-footer-container1, .app-footer-container2 {
-    width: 45%;
-    padding: 20px;
-    background-color: #444;
-    border: 1px solid #555;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .app-footer-container1 p, .app-footer-container2 p {
-    font-size: 14px;
-    margin-bottom: 10px;
-  }
-  
-  .app-footer-container1 h4, .app-footer-container2 h4 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.app-footer__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-footer__contacts {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.app-footer__contacts h3 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.app-footer__contacts ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.app-footer__contacts li {
+  margin-bottom: 10px;
+}
+
+.app-footer__contacts a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.app-footer__contacts a:hover {
+  color: #ccc;
+}
+
+.app-footer__copyright {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
